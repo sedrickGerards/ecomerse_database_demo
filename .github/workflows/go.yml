@@ -1,3 +1,4 @@
+
 # This workflow will build a golang project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
 
@@ -74,3 +75,4 @@ jobs:
             go-${{ runner.os }}-
       - name: Build Go binary
         run: go build -v ./...
+
